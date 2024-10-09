@@ -1,0 +1,809 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.22f1c1 (c3cbd310e76e) revision 12831699'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'zh' Physical Memory: 15775 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\editor\2022.3.22f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/unity/unity project/unity-test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+6014
+Successfully changed project path to: E:/unity/unity project/unity-test
+E:/unity/unity project/unity-test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20892] Host "[IP] 192.168.93.35 [Port] 0 [Flags] 2 [Guid] 2486751738 [EditorId] 2486751738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PH97BKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20892] Host "[IP] 192.168.93.35 [Port] 0 [Flags] 2 [Guid] 2486751738 [EditorId] 2486751738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PH97BKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 19.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1c1 (c3cbd310e76e)
+[Subsystems] Discovering subsystems at path E:/unity/editor/2022.3.22f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unity/unity project/unity-test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7887 MB
+    Driver:   31.0.21916.2
+Initialize mono
+Mono path[0] = 'E:/unity/editor/2022.3.22f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/editor/2022.3.22f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/editor/2022.3.22f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/editor/2022.3.22f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/editor/2022.3.22f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007754 seconds.
+- Loaded All Assemblies, in  0.579 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.381 seconds
+Domain Reload Profiling: 956ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.605 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1238ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (130.7 KB). Loaded Objects now: 3721.
+Memory consumption went from 126.1 MB to 125.9 MB.
+Total: 7.314800 ms (FindLiveObjects: 1.341200 ms CreateObjectMapping: 0.278300 ms MarkObjects: 5.428900 ms  DeleteObjects: 0.263100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352080.630356 seconds.
+  path: Assets/school/road/floor1.fbx
+  artifactKey: Guid(02ba308bed5cd924d888de16aa13d884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/road/floor1.fbx using Guid(02ba308bed5cd924d888de16aa13d884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e2f81ccb943a26a8a569ecee31d35f7') in 0.210595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/school/props/button.fbx
+  artifactKey: Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/button.fbx using Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7335ff5fc2e6ad32b4a902e663ed32a6') in 0.026510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/school/DemoScene/all_Settings.lighting
+  artifactKey: Guid(a775ed5572857754fb6b9e9c14295fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/DemoScene/all_Settings.lighting using Guid(a775ed5572857754fb6b9e9c14295fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '97e33388fba31c767e665a8d1e4a01a7') in 0.035833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/school/Prefabs/props/board2_2 (1).prefab
+  artifactKey: Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/board2_2 (1).prefab using Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12c34117946231fcca125966254ceee1') in 0.026793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/GIRL fbx@Clapping.fbm/top normal.png
+  artifactKey: Guid(8ad93d54e00289942a915380f62a7986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/GIRL fbx@Clapping.fbm/top normal.png using Guid(8ad93d54e00289942a915380f62a7986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c75cd1ca8c21117e31fb21ab6d5f494') in 0.055399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/model/GIRL fbx.fbm/BOdy Skin Base Color.png
+  artifactKey: Guid(445e8145164418b4b8d1a75ac44a9332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/GIRL fbx.fbm/BOdy Skin Base Color.png using Guid(445e8145164418b4b8d1a75ac44a9332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29f332e6abee2d272e5d3948b481590a') in 0.034185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/school/props/fire.fbx
+  artifactKey: Guid(400505d5a5ae5cc47bc16dc4307f2c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/fire.fbx using Guid(400505d5a5ae5cc47bc16dc4307f2c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6263df8b6e86d9f2658ce38acdbe7bdb') in 0.027150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79b895195261df19b111a86af099548e') in 0.015096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/school/props/book16.fbx
+  artifactKey: Guid(804dc1b5bcbda42449135bc1c93de072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/book16.fbx using Guid(804dc1b5bcbda42449135bc1c93de072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec8d6a82826881d67aee40cc8c6a418d') in 0.027105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/school/props/board1.fbx
+  artifactKey: Guid(2096cda62bf772342bc7a4aeda6e4a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/board1.fbx using Guid(2096cda62bf772342bc7a4aeda6e4a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb7b8c77eb576a71b31ce5377d2dd063') in 0.023677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/model/GIRL fbx@Clapping.fbm/bot color.jpg
+  artifactKey: Guid(c64f670b60e192f42b70604139a9ab2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/GIRL fbx@Clapping.fbm/bot color.jpg using Guid(c64f670b60e192f42b70604139a9ab2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46cb6e53e85c47d4101993deea9dcd77') in 0.024571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/chen_bus/chen_bus.fbx
+  artifactKey: Guid(3b52adee2a329284fbd0c54d3f8761a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/chen_bus/chen_bus.fbx using Guid(3b52adee2a329284fbd0c54d3f8761a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '007a13340e1df4ee297ca46439e8006d') in 0.056543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/school/props/locker_1.fbx
+  artifactKey: Guid(6c66e7ddb4e3bf94e8581dbdbd34d601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/locker_1.fbx using Guid(6c66e7ddb4e3bf94e8581dbdbd34d601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0439a8b6ea5d5490b923d22faa402c24') in 0.036244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/school/Prefabs/props/board2_1 1.prefab
+  artifactKey: Guid(1b8fb463cd54a3347a65b53783a48afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/board2_1 1.prefab using Guid(1b8fb463cd54a3347a65b53783a48afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c60333b1273c8eb44809d2c80ad8dd0') in 0.032500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/school/props/book10.fbx
+  artifactKey: Guid(6daefe72622a81549b8b756cb5f167cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/book10.fbx using Guid(6daefe72622a81549b8b756cb5f167cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22b602b7e5b09180b2aa27ae99b2e899') in 0.025743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/school/Prefabs/props/book3.prefab
+  artifactKey: Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/book3.prefab using Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd53710000fd052f5d411d49554038de5') in 0.029441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/school/Prefabs/props/jalousie.prefab
+  artifactKey: Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/jalousie.prefab using Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba99c6761ea999c16a0bbdcdb6f9f11a') in 0.034829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/school/Prefabs/props/fire1.prefab
+  artifactKey: Guid(4bc798f368a5f214ba2ad9cc17bc9b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/fire1.prefab using Guid(4bc798f368a5f214ba2ad9cc17bc9b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44bf3e46987cd67505aa4b813e49d50f') in 0.025751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/school/Prefabs/props/locker.prefab
+  artifactKey: Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/locker.prefab using Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '130f520b7ae5c0a7920a48fcb856dfa2') in 0.027953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/school/Prefabs/props/chair1.prefab
+  artifactKey: Guid(991e8973513e2ad408232c1afeb3a9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/chair1.prefab using Guid(991e8973513e2ad408232c1afeb3a9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a7340e57b066da735638bf91b314bdc') in 0.026861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/school/road/doroga.fbx
+  artifactKey: Guid(f8840c3f03e4a1d45b8c43d8e047bd1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/road/doroga.fbx using Guid(f8840c3f03e4a1d45b8c43d8e047bd1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '258ea110389f3c71029dde785528daff') in 0.027183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/school/props/board2.fbx
+  artifactKey: Guid(566a42721c548c54cb9bc534f063aab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/board2.fbx using Guid(566a42721c548c54cb9bc534f063aab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9de620f8d513806bfa1f5e75455c73a9') in 0.028780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/school/Prefabs/props/book.prefab
+  artifactKey: Guid(924e5835feca5774baf83fefc095dad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/book.prefab using Guid(924e5835feca5774baf83fefc095dad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2334810b17dc69efcbbed3e09dfcf5d4') in 0.028348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/school/props/computer1.fbx
+  artifactKey: Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/computer1.fbx using Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccaedf7b91c9af0f777988267e912c25') in 0.028702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/model/GIRL fbx@Clapping.fbm/COLORS.jpg
+  artifactKey: Guid(c38ccd4487b66584dab28f7d72bca268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/GIRL fbx@Clapping.fbm/COLORS.jpg using Guid(c38ccd4487b66584dab28f7d72bca268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b54b83a80ed616c8a808b169d3638f0') in 0.026730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/school/Prefabs/props/book16.prefab
+  artifactKey: Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/book16.prefab using Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b55d88df71788eb4d0e7e5752ba3686') in 0.029995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/school/Prefabs/props/button.prefab
+  artifactKey: Guid(97ae661c4f5ec684bb00f569e3b354b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/button.prefab using Guid(97ae661c4f5ec684bb00f569e3b354b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f15316848ec02212b806006066f24e33') in 0.025258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/model/Materials/BOdy Skin Base Color.mat
+  artifactKey: Guid(baef0765bc0cbd34ca6e5bee03898adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Materials/BOdy Skin Base Color.mat using Guid(baef0765bc0cbd34ca6e5bee03898adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '253530d3e78f5fda7ac59508a8392557') in 0.020701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/school/props/table2.fbx
+  artifactKey: Guid(428d9da19f0db6d42a12afe656585894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/table2.fbx using Guid(428d9da19f0db6d42a12afe656585894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5237544d2a9402eadc7c87975c88d162') in 0.030597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/school/Prefabs/props/locker_1.prefab
+  artifactKey: Guid(4af7da65169b48c47b3b86e7d6323744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/locker_1.prefab using Guid(4af7da65169b48c47b3b86e7d6323744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9c48c3cd72fe51d9da4585e8d0af001') in 0.027084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/school/Prefabs/props/board2_1.prefab
+  artifactKey: Guid(b3341dfb909e87841afc69dcda0971e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/board2_1.prefab using Guid(b3341dfb909e87841afc69dcda0971e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17c81b96657fb06d379b5aec1f60d1e7') in 0.027824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/school/props/book15.fbx
+  artifactKey: Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/book15.fbx using Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3bdbfaf070f6bab5d1cf233a474ed41b') in 0.030506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Autobus_Windows.mat
+  artifactKey: Guid(06307778475570644aaf77741c78faed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Autobus_Windows.mat using Guid(06307778475570644aaf77741c78faed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9924fcbf0c01749bde886191f8f42396') in 0.016148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/school/Prefabs/props/sheet3.prefab
+  artifactKey: Guid(5f0122993f7c5324d972bf997e494ca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/sheet3.prefab using Guid(5f0122993f7c5324d972bf997e494ca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b75fc2fa9bc83ecacbeeca6f213f7adf') in 0.028987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_reflective_mat.mat
+  artifactKey: Guid(c6f62da16be7d7a49a211aaa81be90f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_reflective_mat.mat using Guid(c6f62da16be7d7a49a211aaa81be90f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '716fb8ae0590b94b1f08f21cb99061be') in 0.017519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_Windows.mat
+  artifactKey: Guid(61576cfb9ff6f3e4fa7d09cec8a143ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_Windows.mat using Guid(61576cfb9ff6f3e4fa7d09cec8a143ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab99066b5266a664e2f4f13cf472ec5c') in 0.013547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Tram_windows.mat
+  artifactKey: Guid(1b93244dce73e4b4fab46e7b89f9d51b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Tram_windows.mat using Guid(1b93244dce73e4b4fab46e7b89f9d51b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d0f1a77f1b5b194f3bb80a092e03d4e') in 0.014835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/school/Prefabs/props/sheet.prefab
+  artifactKey: Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/sheet.prefab using Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf358663fd8b42cab3fd63e558e16174') in 0.028525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Small_Autobus_licensePlate.mat
+  artifactKey: Guid(3fd3105649658604486c3a7a1879149d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Small_Autobus_licensePlate.mat using Guid(3fd3105649658604486c3a7a1879149d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25d6bed336aa2da2e6eae4fabfe72fbb') in 0.022271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/school/Prefabs/props/book6.prefab
+  artifactKey: Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/book6.prefab using Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80c92c51c69552f132c3d0defaad52b7') in 0.026047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/school/Prefabs/props/computer1.prefab
+  artifactKey: Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/computer1.prefab using Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5bc71ff23c2edd7b5f1390274bca7750') in 0.027689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_Darker_carpaint.mat
+  artifactKey: Guid(1029627f932d653498f3e462ec095eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_Darker_carpaint.mat using Guid(1029627f932d653498f3e462ec095eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '682679fa06bf266d765cee688f0d58df') in 0.017481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/school/props/book12.fbx
+  artifactKey: Guid(d26fd69ae663eb24a85bb3506b3e3b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/book12.fbx using Guid(d26fd69ae663eb24a85bb3506b3e3b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3d289e7c42fd7f622e499b3277672c2') in 0.029628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_wire.mat
+  artifactKey: Guid(2c194d66fb4df334e888a46f79d43f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_wire.mat using Guid(2c194d66fb4df334e888a46f79d43f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1984a1a91c27a24b18559e7d980b91e') in 0.018939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/school/props/table1.fbx
+  artifactKey: Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/table1.fbx using Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '539fc9be7625edfbadbd7fb26e559e8d') in 0.029507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/school/props/table3.fbx
+  artifactKey: Guid(0699d22803476344d956abf42dc88970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/table3.fbx using Guid(0699d22803476344d956abf42dc88970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adf3885c3097ed429a5e560bed6214ef') in 0.031346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/school/Prefabs/props/wall4.prefab
+  artifactKey: Guid(2d0d657c1182735489e24a5ce302b99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/wall4.prefab using Guid(2d0d657c1182735489e24a5ce302b99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74578c16d79b4f2c3349b7e31fd2de48') in 0.029632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Tram_red_metal.mat
+  artifactKey: Guid(98001c487ab412c43811ba08288c20b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Tram_red_metal.mat using Guid(98001c487ab412c43811ba08288c20b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18bcb00a678ec2281c8c82c87fe4d36f') in 0.016829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/school/Prefabs/props/sheet2.prefab
+  artifactKey: Guid(8e7a095165f9b1042be929150f3913f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/sheet2.prefab using Guid(8e7a095165f9b1042be929150f3913f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb8506a4379e8081f70f75727e1a6fce') in 0.026893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat
+  artifactKey: Guid(dc180ddaa9633db4c8e015141d784cfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat using Guid(dc180ddaa9633db4c8e015141d784cfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4b35a2488c1aebdeaaa59f2d874f43a') in 0.019855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_redlights.mat
+  artifactKey: Guid(f420a6200ff39dd449ad80cacacd64b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/SmallAutobus_redlights.mat using Guid(f420a6200ff39dd449ad80cacacd64b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '170c45cacde21e308779a04aed939280') in 0.029334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Autobus_Backlights_2.mat
+  artifactKey: Guid(46987bbe492545443837ecf87bd0c8ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/Autobus_Backlights_2.mat using Guid(46987bbe492545443837ecf87bd0c8ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '172f64a21b603b81f6571db21f1b9c51') in 0.020757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/school/Prefabs/props/projector.prefab
+  artifactKey: Guid(832c4b3dc1fa4234a995fcbdcce28404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/projector.prefab using Guid(832c4b3dc1fa4234a995fcbdcce28404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65836a28271cac623156cbd6a2e1f959') in 0.026263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat
+  artifactKey: Guid(cdb22899674873642a8b09020709ae1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat using Guid(cdb22899674873642a8b09020709ae1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8456c3c3de3d2b47f373b5d82bce3f64') in 0.021557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair4_head.png
+  artifactKey: Guid(e1465639d7246b84b8635491c7ffeaec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair4_head.png using Guid(e1465639d7246b84b8635491c7ffeaec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '579d813686582ed3dcf052c88edc732f') in 0.027355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/SmallAutobus_wire.png
+  artifactKey: Guid(d1138feb547374849920c0f9fc9aef26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/SmallAutobus_wire.png using Guid(d1138feb547374849920c0f9fc9aef26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '929f0fef304c0f6fcff21659da0592e3') in 0.026541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/Autobus_front_light.png
+  artifactKey: Guid(69f7e9b51733a2443b20227fd080fb2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/Autobus_front_light.png using Guid(69f7e9b51733a2443b20227fd080fb2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59b564dd9823e1caa4e02224d00f82e6') in 0.029425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/model/AnimeGirls/Casual1/SourceFiles/Texture/Casual1NORMAL.png
+  artifactKey: Guid(9af3bb75de4ffbb43a9890cabbc77a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/Casual1/SourceFiles/Texture/Casual1NORMAL.png using Guid(9af3bb75de4ffbb43a9890cabbc77a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2ab30f788eff779199d6c497c8f5bbe') in 0.022166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+  artifactKey: Guid(40654ecb795598a448c76508bf5efa2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png using Guid(40654ecb795598a448c76508bf5efa2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe43bc58fcf4173ef993ae2f558a2387') in 0.016954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+  artifactKey: Guid(306bd9a3a9617b6438a3b9d67ee2505c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png using Guid(306bd9a3a9617b6438a3b9d67ee2505c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b30f2e2c30f01058cff47c8bb0c29e1') in 0.016735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat
+  artifactKey: Guid(45f47006298912f4dbec4062603b460f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat using Guid(45f47006298912f4dbec4062603b460f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5db26dcfa3be854f05299afb4671526b') in 0.013382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat
+  artifactKey: Guid(903deec0895457d43a093ac8ee3e1d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat using Guid(903deec0895457d43a093ac8ee3e1d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73445be82de8faa5e0306f41c85e6dcd') in 0.015639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat
+  artifactKey: Guid(99a79f6de2825ec4bb471ef12eee8b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat using Guid(99a79f6de2825ec4bb471ef12eee8b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d815f6575dccd35c0e9374575f401ce') in 0.014093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat
+  artifactKey: Guid(35480311dac00b44e8b4aa462037a655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat using Guid(35480311dac00b44e8b4aa462037a655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce8324009c565480d030df541aae9891') in 0.014721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/Tram_ligths.png
+  artifactKey: Guid(d2990be0d51a09d40ba3e0521e36c899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/Tram_ligths.png using Guid(d2990be0d51a09d40ba3e0521e36c899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cce3803c5d07cc6bfe188c868dd2aad') in 0.020921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat
+  artifactKey: Guid(023452b84affa6f43a8feea0e1c55499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat using Guid(023452b84affa6f43a8feea0e1c55499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ebd16fde25a504b0a0590545014d681') in 0.013250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Shader/DoubleSided.shader
+  artifactKey: Guid(9566ab5898d15b44c83d8c8c7deb8865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Shader/DoubleSided.shader using Guid(9566ab5898d15b44c83d8c8c7deb8865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '717134bf7816c3f8cb54e05d0f9cd664') in 0.014707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat
+  artifactKey: Guid(005e240c72f4ad94a986acc901553162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat using Guid(005e240c72f4ad94a986acc901553162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ee71efd1217a1e7107948dba3b199be') in 0.012872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat
+  artifactKey: Guid(d76781e69b0e937439800ef45648aed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat using Guid(d76781e69b0e937439800ef45648aed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4d193e99245fdb3e5eed22efc3a0f005') in 0.017584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/TurnFrontLights.mat
+  artifactKey: Guid(59c07136bde9f6b40bcf42a3e421693a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Materials/TurnFrontLights.mat using Guid(59c07136bde9f6b40bcf42a3e421693a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7d6b0f1d884e7cf63d4ea62e80c6c52') in 0.018514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair5_hair.png
+  artifactKey: Guid(6a800db2ae2e2654cb3cdbe75bcfb321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair5_hair.png using Guid(6a800db2ae2e2654cb3cdbe75bcfb321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7eaaafedff8b068acec0a2b2c8ec1860') in 0.021509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair3_hair.png
+  artifactKey: Guid(d12f3944f9b15d54cb90d8fe114dc73e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair3_hair.png using Guid(d12f3944f9b15d54cb90d8fe114dc73e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21ce9f7186c00192bcfbb263085e09e8') in 0.015400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Scenes/VehiclesScene.unity
+  artifactKey: Guid(2ac1f7f8c7d142e49b534b8baac12a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Scenes/VehiclesScene.unity using Guid(2ac1f7f8c7d142e49b534b8baac12a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8e975333bd40874547e86c7448e28f0') in 0.009683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx
+  artifactKey: Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx using Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '985509d6b526c4d0c98c024cb6a694e3') in 0.078634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/school/props/rack1.fbx
+  artifactKey: Guid(3d58d5cb75277704fbee090d5dc98394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/props/rack1.fbx using Guid(3d58d5cb75277704fbee090d5dc98394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14b3e8e429aa07f3586f14bf27a03798') in 0.097868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 577
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/Autobus_lights.png
+  artifactKey: Guid(0a8b36c5d9172624ca0208a18a9aef00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/Vladislav Simakov/Street_Vehicles_Pack_Autobus_Tram/Textures/Autobus_lights.png using Guid(0a8b36c5d9172624ca0208a18a9aef00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '299080c8f6c1d0b98ac7182281ce9af0') in 0.026008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/school/Prefabs/props/computer.prefab
+  artifactKey: Guid(95b7030fe576ba84e930b6af82eb2738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/school/Prefabs/props/computer.prefab using Guid(95b7030fe576ba84e930b6af82eb2738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '733869c31f7fa9c7e27e4b0f6420a192') in 0.023089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat
+  artifactKey: Guid(02b619845fcb6e741b4be7e71e36c491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/model/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat using Guid(02b619845fcb6e741b4be7e71e36c491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbe3e9657dd8bf79ab425718267fbb79') in 0.012037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
